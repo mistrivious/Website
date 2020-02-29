@@ -1,0 +1,91 @@
+#page {
+	background-color:red;
+}
+
+#login {
+	width: 20vw;
+	margin-left: auto;
+	margin-right: auto;		
+	background-color: #ededed;
+	border-radius: 10px;
+	margin-top: 330px ;
+}
+
+#login_header {
+	color:black;
+	font-family: "Yu Gothic UI";
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 35px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+#username {
+	margin-bottom: 20px;
+}
+
+#label_username {
+	color:#black;
+	font-family: "Yu Gothic UI";
+	margin-left: 5%;
+}
+
+#username_box {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3px;
+	background-color:#c4c4c4;
+	border-color: #858585;
+	border-style: groove;
+	border-radius: 5px;
+	width: 90%;
+	height: 30px;
+	color:white;
+	font-size: 20px;
+	font-family: "Yu Gothic UI";
+}
+
+#password {
+	margin-bottom: 20px;
+}
+
+#label_password {
+	color:black;
+	font-family: "Yu Gothic UI";
+	margin-left: 5%
+}
+#password_box {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3px;
+	background-color:#c4c4c4;
+	border-color: #858585;
+	border-style: groove;
+	border-radius: 5px;
+	color:white;
+	font-size: 20px;
+	width: 90%;
+	height: 30px;
+}
+
+#login_button {
+	margin-top: 5px;
+	height: 40px;
+	width: 90%;
+	background-color:#6200b8;
+	color:white;
+	border-color: #8aa7d4;
+	border-style: none;
+	border-radius: 8px;
+	margin-bottom: 18px;
+}
+
+#needaccount {
+	font-family: "Yu Gothic UI";
+	color:gray;	
+	margin-left: 5%;
+	padding-bottom: 15px;
+}

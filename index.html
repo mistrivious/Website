@@ -6,10 +6,9 @@
 		<title>Mistrivious</title>
 		<link rel="icon" href="/assets/clown_Nnb_icon.ico">
 		
-		<script type="text/javascript" src='script.js'> </script>
-		<link rel="stylesheet" media="screen and (min-width: 900px)" href="style.css">
-		<link rel="stylesheet" media="screen and (max-width: 600px)" href="style2.css">
-		
+		<script src='index.js'> </script>
+		<link rel="stylesheet" href="index.css">
+
 		<meta charset="UTF-8">
 		<meta name="application-name" content="Mistrivious">
 		<meta name="description" content="Just a test website created by Mistrivious">
@@ -18,27 +17,8 @@
 	</head>
 
 	<body id="page">
-		
-			<form id="login">
-
-				<h1 id="login_header"><center>LOGIN</center></h1>
-				
-				<div id="username">
-					<label id="label_username" for="username_box">Username:</label>
-					<input type="text" id="username_box" required></input>
-				</div>
-
-				<div id="password">
-					<label id="label_password" for="password_box">Password:</label>
-					<input type="password" id="password_box" required></input>
-				</div>
-
-				<center><button id="login_button">Login</button></center>
-
-				<div id="needaccount">Need an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Register</a></div>
-
-			</form>
-
+			<audio id="audio" src="assets/september.mp3" loop="true"></audio>
+			<video id="video" src="assets/jakob.mp4" muted="true" autoplay="true" loop="true" onclick="audio.play();"></video>
 	</body>
 
 </html>
